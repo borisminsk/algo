@@ -1,4 +1,4 @@
-int C(int n, int k) {
+int C(int n, int k) { //very slow
     if (n < k) return 0;
     if (n == k) {
         return 1;
